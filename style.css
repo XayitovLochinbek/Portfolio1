@@ -200,7 +200,6 @@ section{
 
 }
 .main .content h2:hover{
-    text-shadow: 5px 5px 1px rgb(0, 157, 255);
     color: rgb(23, 0, 128);
     font-size: 46px;
     font-weight: 500;
@@ -224,10 +223,8 @@ section{
     line-height: 70px;
     letter-spacing: 1px;
     transition: .7s ease;
-    text-shadow: 3px 5px 1px blue;
 }
 .animated-text h3:hover{
-    text-shadow: 3px 5px 1px crimson;
     color: blue;
     font-size: 62px;
     font-weight: 700;
@@ -314,7 +311,7 @@ section{
 }
 
 .about{
-    background: url(./images/port.jpeg) ;
+    background: rgba(156, 151, 151, 0.406);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -327,6 +324,7 @@ section{
     justify-content: space-between;
     color: rgb(10, 9, 9);
     margin-top: 20px;
+    padding: 10px;
 }
 img{
     border-radius: 10px;
@@ -336,14 +334,22 @@ img{
     width: 45px;
 }
 
-
+.column-col-straight-reveal{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column-col-straight-reveal p{
+    font-size: 20px;
+}
 .about .content2 .img-card{
     position: relative;
     width: 100%;
     height: 460px;
     border-radius: 10px;
     overflow: hidden;
-
 }
 
 .about .content2 .img-card img{
@@ -365,7 +371,7 @@ img{
     margin-bottom: 20px;    
 }
 .skills{
-    background: url(./images/macbook.jpeg) no-repeat;
+    background: black;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -441,12 +447,7 @@ img{
     background-color: red;
 }
 .services{
-    background: url(./images/portfo.webp);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-    
+    background: white;
 }
 .services .content{
     display: flex;
@@ -458,7 +459,7 @@ img{
 }
 .title p{
     width: 80%;
-    color: white;
+    font-size: 20px;
 }
 .services .content .card{
     background: #fff;
@@ -479,7 +480,7 @@ img{
     transform: translateY(-30px);
 }
 .services .card .service-icon{
-    color: crimson;
+    color: blueviolet;
     font-size: 120px;
     text-align: center;
     transition:  1s ease;
@@ -497,10 +498,7 @@ img{
     margin: 10px;
 }
 .work{
-    background: url(./images/photo.avif);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: black;
     
 }
 .work  .content{
@@ -536,11 +534,7 @@ img{
     transform: scale(1.3);
 }
 .contact{
-    background: url(images/istockphoto-1433145639-170667a.webp)no-repeat;
-    
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: rgba(146, 146, 146, 0.274);
 }
 .contact input{
     width: 280px;
@@ -576,7 +570,7 @@ img{
 }
 
 .contact .card .service-icon{
-    color: crimson;
+    color: rgb(230, 0, 255);
     font-size: 120px;
     text-align: center;
     transition: 1s ease;
@@ -663,7 +657,7 @@ img{
     margin-top: 50px;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 5px 25px rgb(68, 68, 255);
+    width: 100%;
 }
 .contact-form h3{
     color: crimson;
@@ -713,21 +707,17 @@ img{
 .con .har span{
     font-size: 25px;
     color: white;
-    text-shadow: 2px 2px 2px white;
     transition: 1s ease;
 }
 .con .har span:hover{
     color: rgb(0, 149, 255);
-    text-shadow: 2px 2px 2px rgb(0, 149, 255);
 }
 .con .har p{
     color: white;
-    text-shadow: 2px 2px 2px white;
     transition: 1s ease;
 }
 .con .har p:hover{
     color: rgb(0, 149, 255);
-    text-shadow: rgb(0, 149, 255);
 }
 
 
