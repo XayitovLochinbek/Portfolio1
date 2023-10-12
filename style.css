@@ -283,7 +283,7 @@ section{
 
 .section-title{
     position: relative;
-    color: crimson;
+    color: blueviolet;
     font-size: 38px;
     font-weight: 800;
     margin-bottom: 60px;
@@ -295,7 +295,7 @@ section{
     left: 50%;
     width: 140px;
     height: 4px;
-    background-color: crimson;
+    background-color: blue;
     transform: translateX(-50%);
 }
 .section-title::after{
@@ -306,7 +306,7 @@ section{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
     transform: translateX(-50%);
 }
 
@@ -582,7 +582,7 @@ img{
     text-align: center;
 }
 .contact .card .info h3{
-    color: crimson;
+    color: rgb(226, 43, 186);
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
